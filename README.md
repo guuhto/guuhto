@@ -1,4 +1,4 @@
-## 👋 Hii! Eu sou o Gustavo 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=BB9AF7&center=true&vCenter=true&width=1260&lines=Hii+%F0%9F%91%8B%2C+eu+sou+o+Gustavo;Software+Engineer+%7C+Linux+User;C+%E2%80%A2+Python+%E2%80%A2+Rust+%E2%80%A2+Go)](https://git.io/typing-svg)
 
 💻 Software Engineer | Programação de Sistemas & Redes  
 🐧 Usuário avançado de Linux  
@@ -39,14 +39,32 @@
 
 ### 🛠️ Tecnologias que uso
 
-<p align="center">
-  <img src="https://cdn.simpleicons.org/c/ffffff" height="40" />
-  <img src="https://cdn.simpleicons.org/python/ffffff" height="40" />
-  <img src="https://cdn.simpleicons.org/rust/ffffff" height="40" />
-  <img src="https://cdn.simpleicons.org/go/ffffff" height="40" />
-  <img src="https://cdn.simpleicons.org/gnu/ffffff" height="40" />
-  <img src="https://cdn.simpleicons.org/linux/ffffff" height="40" />
-</p>
+<table align="center">
+  <tr>
+    <th align="center">💻 Languages</th>
+    <th align="center">🧰 Tools</th>
+    <th align="center">🐧 Environment</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/c/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/python/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/rust/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/go/BB9AF7" height="40" />
+    </td>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/git/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/docker/BB9AF7" height="40" />
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" height="40" />
+      <img src="https://cdn.simpleicons.org/vim/BB9AF7" height="40" />
+    </td>
+    <td align="center">
+      <img src="https://cdn.simpleicons.org/linux/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/gnu/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/raspberrypi/BB9AF7" height="40" />
+    </td>
+  </tr>
+</table>
 
 ---
 
