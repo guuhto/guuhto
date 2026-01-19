@@ -7,31 +7,32 @@
 ---
 
 ### 🧠 Sobre mim
+
 <table>
-<tr>
-<td>
-<ul>
-  <li>Curto desenvolver sistemas, baixo nível e software de rede</li>
-  <li>Trabalho majoritariamente com Linux (desktop e servidor)</li>
-  <li>Background em suporte de T.I</li>
-</ul>
-</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td> 
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>
-<img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Rust/Iwakura_Lain_Rust_programming.png" width="150"/>
-</td>
-</tr>
+  <tr>
+    <td>
+      <ul>
+        <li>Curto desenvolver sistemas, baixo nível e software de rede</li>
+        <li>Trabalho majoritariamente com Linux (desktop e servidor)</li>
+        <li>Background em suporte de T.I</li>
+      </ul>
+    </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td> 
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    <td>
+      <img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Rust/Iwakura_Lain_Rust_programming.png" width="150"/>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -51,26 +52,19 @@
 
 ### 📊 GitHub stats
 
-<p align="center">
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=guuhto&theme=tokyonight&hide_border=true"
-    height="200"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=guuhto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
-    height="200"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=guuhto&layout=compact&theme=tokyonight&hide_border=true"
-    height="165"
-  />
-</p>
+<table align="center">
+  <tr>
+    <td align="left" valign="top">
+      <img src="https://github-readme-streak-stats-eight.vercel.app/?user=guuhto&amp;theme=tokyonight&amp;hide_border=true" height="200" />
+    </td>
+    <td align="center" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api?username=guuhto&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" height="200" />
+    </td>
+    <td align="right" valign="top">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guuhto&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" height="165" />
+    </td>
+  </tr>
+</table>
 
 ---
 
