@@ -30,7 +30,7 @@
       <td></td>
       <td></td>
     <td>
-      <img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Rust/Iwakura_Lain_Rust_programming.png" width="150"/>
+      <img src="https://github.com/guuhto/my-icon-collection/blob/main/Anime%20Girls%20Holding%20Programming%20Books/C/Iwakura_Lain_holding_SICP.jpg" width="150"/>
     </td>
   </tr>
 </table>
