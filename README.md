@@ -12,8 +12,8 @@
   <tr>
     <td>
       <ul>
-        <li>Curto desenvolver sistemas, baixo nível e software de rede</li>
-        <li>Trabalho majoritariamente com Linux (desktop e servidor)</li>
+        <li>Interesse em desenvolvimento de sistemas e redes</li>
+        <li>Linux como ambiente principal no dia a dia</li>
         <li>Background em suporte de T.I</li>
       </ul>
     </td>
@@ -53,10 +53,10 @@
       <img src="https://cdn.simpleicons.org/go/BB9AF7" height="40" />
     </td>
     <td align="center">
-      <img src="https://cdn.simpleicons.org/git/BB9AF7" height="40" />
-      <img src="https://cdn.simpleicons.org/docker/BB9AF7" height="40" />
-      <img src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" height="40" />
-      <img src="https://cdn.simpleicons.org/vim/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/git/BB9AF7" width="40" height="40"/>
+      <img src="https://cdn.simpleicons.org/docker/BB9AF7" width="40" height="40"/>
+      <img src="https://api.iconify.design/akar-icons:vscode-fill.svg?color=%23bb9af7" width="40" height="40" style="object-fit: contain;" />
+      <img src="https://cdn.simpleicons.org/vim/BB9AF7" width="40" height="40"/>
     </td>
     <td align="center">
       <img src="https://cdn.simpleicons.org/linux/BB9AF7" height="40" />
