@@ -1,9 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=BB9AF7&center=true&vCenter=true&width=1260&lines=Hii+%F0%9F%91%8B%2C+I%27m+Gustavo;Software+Engineer+%7C+Linux+User;C+%E2%80%A2+Python+%E2%80%A2+Rust+%E2%80%A2+Go)](https://git.io/typing-svg)
 
-💻 Software Engineer | Systems & Network Programming
-🐧 Advanced Linux user
-🖥️ C • Python • Rust • Go
-
 ---
 
 ### 🧠 About me
@@ -44,7 +40,7 @@
     <td align="center">
       <img src="https://cdn.simpleicons.org/git/BB9AF7" width="40" height="40"/>
       <img src="https://cdn.simpleicons.org/docker/BB9AF7" width="40" height="40"/>
-      <img src="https://cdn.simpleicons.org/neovim/BB9AF7" width="40" height="40"/>
+      <img src="https://cdn.simpleicons.org/vim/BB9AF7" width="40" height="40"/>
       <img src="https://cdn.simpleicons.org/gnubash/BB9AF7" width="40" height="40"/>
     </td>
     <td align="center">
@@ -68,10 +64,6 @@
     <td align="center" width="110">
       <img src="https://cdn.simpleicons.org/debian/BB9AF7" height="36" /><br/>
       <sub>Debian</sub>
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.simpleicons.org/fedora/BB9AF7" height="36" /><br/>
-      <sub>Fedora</sub>
     </td>
     <td align="center" width="110">
       <img src="https://cdn.simpleicons.org/archlinux/BB9AF7" height="36" /><br/>
