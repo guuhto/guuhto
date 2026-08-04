@@ -1,43 +1,32 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=BB9AF7&center=true&vCenter=true&width=1260&lines=Hii+%F0%9F%91%8B%2C+eu+sou+o+Gustavo;Software+Engineer+%7C+Linux+User;C+%E2%80%A2+Python+%E2%80%A2+Rust+%E2%80%A2+Go)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=900&color=BB9AF7&center=true&vCenter=true&width=1260&lines=Hii+%F0%9F%91%8B%2C+I%27m+Gustavo;Software+Engineer+%7C+Linux+User;C+%E2%80%A2+Python+%E2%80%A2+Rust+%E2%80%A2+Go)](https://git.io/typing-svg)
 
-💻 Software Engineer | Programação de Sistemas & Redes  
-🐧 Usuário avançado de Linux  
+💻 Software Engineer | Systems & Network Programming
+🐧 Advanced Linux user
 🖥️ C • Python • Rust • Go
 
 ---
 
-### 🧠 Sobre mim
+### 🧠 About me
 
 <table>
   <tr>
-    <td>
+    <td width="70%" valign="middle">
       <ul>
-        <li>Interesse em desenvolvimento de sistemas e redes</li>
-        <li>Linux como ambiente principal no dia a dia</li>
-        <li>Background em suporte de T.I</li>
+        <li>Interested in systems and network development</li>
+        <li>Linux as my daily driver</li>
+        <li>Background in IT support</li>
+        <li>Currently daily-driving <b>NixOS</b> — fully declarative, Flakes + Home Manager</li>
       </ul>
     </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td> 
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    <td>
-      <img src="https://github.com/guuhto/my-icon-collection/blob/main/Anime%20Girls%20Holding%20Programming%20Books/C/Iwakura_Lain_holding_SICP.jpg" width="150"/>
+    <td width="30%" align="right" valign="middle">
+      <img src="https://github.com/guuhto/my-icon-collection/blob/main/Anime%20Girls%20Holding%20Programming%20Books/C/Iwakura_Lain_holding_SICP.jpg?raw=true" width="150"/>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ Tecnologias que uso
+### 🛠️ Tech I use
 
 <table align="center">
   <tr>
@@ -55,16 +44,71 @@
     <td align="center">
       <img src="https://cdn.simpleicons.org/git/BB9AF7" width="40" height="40"/>
       <img src="https://cdn.simpleicons.org/docker/BB9AF7" width="40" height="40"/>
-      <img src="https://api.iconify.design/akar-icons:vscode-fill.svg?color=%23bb9af7" width="40" height="40" style="object-fit: contain;" />
-      <img src="https://cdn.simpleicons.org/vim/BB9AF7" width="40" height="40"/>
+      <img src="https://cdn.simpleicons.org/neovim/BB9AF7" width="40" height="40"/>
+      <img src="https://cdn.simpleicons.org/gnubash/BB9AF7" width="40" height="40"/>
     </td>
     <td align="center">
       <img src="https://cdn.simpleicons.org/linux/BB9AF7" height="40" />
       <img src="https://cdn.simpleicons.org/gnu/BB9AF7" height="40" />
-      <img src="https://cdn.simpleicons.org/raspberrypi/BB9AF7" height="40" />
+      <img src="https://cdn.simpleicons.org/nixos/BB9AF7" height="40" />
     </td>
   </tr>
 </table>
+
+---
+
+### 🧭 Distro journey
+
+<table align="center">
+  <tr>
+    <td align="center" width="110">
+      <img src="https://cdn.simpleicons.org/ubuntu/BB9AF7" height="36" /><br/>
+      <sub>Ubuntu</sub>
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn.simpleicons.org/debian/BB9AF7" height="36" /><br/>
+      <sub>Debian</sub>
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn.simpleicons.org/fedora/BB9AF7" height="36" /><br/>
+      <sub>Fedora</sub>
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn.simpleicons.org/archlinux/BB9AF7" height="36" /><br/>
+      <sub>Arch</sub>
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn.simpleicons.org/nixos/BB9AF7" height="36" /><br/>
+      <sub><b>NixOS</b> ← now</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub><i>From <code>apt install</code> to <code>nixos-rebuild switch</code> — the config is the machine.</i></sub>
+</p>
+
+---
+
+### 📟 git status
+
+```console
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+
+Currently working on:
+  modified:   nixos-config/       # declarative everything, Flakes + Home Manager
+  modified:   homelab/roxy/       # self-hosted services, DNS, containers
+  new file:   learning/rust/      # systems programming, one borrow at a time
+
+Untracked files:
+  (use "git add <idea>" to include in what will be committed)
+        side-projects/
+        dotfile-refactor-again/
+
+nothing else to commit, working tree (mostly) clean
+```
 
 ---
 
@@ -72,28 +116,20 @@
 
 <table align="center">
   <tr>
-    <td align="left" valign="top">
-      <img src="https://github-readme-streak-stats-eight.vercel.app/?user=guuhto&amp;theme=tokyonight&amp;hide_border=true" height="200" />
+    <td align="center" valign="top">
+      <img src="https://streak-stats.demolab.com/?user=guuhto&theme=tokyonight&hide_border=true" height="200" />
     </td>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=guuhto&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" height="200" />
+      <img src="https://github-stats-extended.vercel.app/api?username=guuhto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" height="200" />
     </td>
-    <td align="right" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guuhto&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" height="165" />
+    <td align="center" valign="top">
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=guuhto&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" />
     </td>
   </tr>
 </table>
 
 ---
 
-### 🌐 Onde me encontrar
-
-<div>
-  <a href="https://www.instagram.com/_guuhto/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-  </a>
-</div>
-
----
-
-🧑‍🚀 *I live on Linux: between open terminals, broken configs, and epic rebuilds.*
+<p align="center">
+  🧑‍🚀 <i>I live on Linux: between open terminals, broken configs, and epic rebuilds.</i>
+</p>
