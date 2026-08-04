@@ -87,11 +87,14 @@
 ```console
 $ git status
 On branch main
-Your branch is up to date with 'origin/main'.
+Your branch is ahead of 'origin/main' by 44 commits.
 
-nothing to commit, working tree clean
+Changes not staged for commit:
+  modified:   guuhto/               # fix: use compare API instead of payload.commi…
+  modified:   nixos-config/         # kitty: override color13 to pink 218
+  modified:   my-icon-collection/   # Add icon
 
-# last 30 days · refreshed 2026-08-04 02:13 UTC
+# last 30 days · refreshed 2026-08-04 02:18 UTC
 ```
 <!--END_SECTION:status-->
 
