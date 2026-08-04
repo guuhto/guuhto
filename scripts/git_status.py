@@ -5,6 +5,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -34,7 +35,12 @@ def api(path):
 
 
 def collect():
-    """Return (modified, untracked, commit_count) from public events."""
+    """Return (modified, untracked, commit_count) from public events.
+
+    The public events payload no longer carries `commits` / `distinct_size`,
+    so we only take `head` and `before` here and resolve the range later
+    with one compare call per repo.
+    """
     cutoff = datetime.now(timezone.utc) - timedelta(days=WINDOW_DAYS)
     events = []
     for page in (1, 2, 3):
@@ -43,34 +49,58 @@ def collect():
             break
         events.extend(batch)
 
-    modified = {}          # repo -> last commit message
-    created = []           # brand new repos
-    commits = 0
+    ranges = {}   # full_name -> {"head": newest sha, "before": oldest sha}
+    created = []
 
     for ev in events:
         when = datetime.strptime(ev["created_at"], "%Y-%m-%dT%H:%M:%SZ")
         when = when.replace(tzinfo=timezone.utc)
         if when < cutoff:
             continue
-        repo = ev["repo"]["name"].split("/", 1)[-1]
+        full = ev["repo"]["name"]
 
         if ev["type"] == "PushEvent":
             payload = ev.get("payload", {})
-            commits += payload.get("distinct_size", 0)
-            for c in reversed(payload.get("commits", [])):
-                msg = c["message"].split("\n")[0].strip()
-                if msg.lower().startswith("merge "):
-                    continue
-                modified.setdefault(repo, msg)
-                break
+            if payload.get("ref", "").startswith("refs/tags/"):
+                continue
+            head, before = payload.get("head"), payload.get("before")
+            if not head or not before:
+                continue
+            # events come newest-first: first head wins, last before wins
+            entry = ranges.setdefault(full, {"head": head, "before": before})
+            entry["before"] = before
         elif ev["type"] == "CreateEvent" and ev["payload"].get("ref_type") == "repository":
-            if repo not in created:
-                created.append(repo)
+            if full not in created:
+                created.append(full)
 
-    # a repo that was just created and already pushed to counts as modified only
-    untracked = [r for r in created if r not in modified][:3]
-    top = list(modified.items())[:MAX_REPOS]
-    return top, untracked, commits
+    modified = []
+    total = 0
+    for full, r in list(ranges.items())[:MAX_REPOS]:
+        count, msg = compare(full, r["before"], r["head"])
+        total += count
+        modified.append((full.split("/", 1)[-1], count, msg))
+
+    untracked = [c.split("/", 1)[-1] for c in created if c not in ranges][:3]
+    return modified, untracked, total
+
+
+def compare(full_name, before, head):
+    """Return (commit_count, latest_commit_message) for a sha range."""
+    try:
+        data = api(f"/repos/{full_name}/compare/{before}...{head}")
+    except urllib.error.HTTPError:
+        # force-push, deleted branch, or repo gone private
+        return 0, ""
+    commits = data.get("commits", [])
+    count = data.get("total_commits", len(commits))
+    msg = ""
+    for c in reversed(commits):
+        first = c["commit"]["message"].split("\n")[0].strip()
+        if first.lower().startswith("merge "):
+            continue
+        msg = first
+        break
+    return count, msg
 
 
 def shorten(msg):
@@ -92,10 +122,11 @@ def render(modified, untracked, commits):
     lines.append("")
 
     if modified:
-        pad = max(len(r) for r, _ in modified) + 1
+        pad = max(len(r) for r, _, _ in modified) + 2
         lines.append("Changes not staged for commit:")
-        for repo, msg in modified:
-            lines.append(f"  modified:   {(repo + '/').ljust(pad + 1)}  # {shorten(msg)}")
+        for repo, count, msg in modified:
+            note = shorten(msg) if msg else f"{count} commits"
+            lines.append(f"  modified:   {(repo + '/').ljust(pad)}  # {note}")
         lines.append("")
 
     if untracked:
