@@ -11,7 +11,6 @@
         <li>Interested in systems and network development</li>
         <li>Linux as my daily driver</li>
         <li>Background in IT support</li>
-        <li>Currently daily-driving <b>NixOS</b> — fully declarative, Flakes + Home Manager</li>
       </ul>
     </td>
     <td width="30%" align="right" valign="middle">
@@ -84,23 +83,15 @@
 
 ### 📟 git status
 
+<!--START_SECTION:status-->
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+Your branch is up to date with 'origin/main'.
 
-Currently working on:
-  modified:   nixos-config/       # declarative everything, Flakes + Home Manager
-  modified:   homelab/roxy/       # self-hosted services, DNS, containers
-  new file:   learning/rust/      # systems programming, one borrow at a time
-
-Untracked files:
-  (use "git add <idea>" to include in what will be committed)
-        side-projects/
-        dotfile-refactor-again/
-
-nothing else to commit, working tree (mostly) clean
+nothing to commit, working tree clean
 ```
+<!--END_SECTION:status-->
 
 ---
 
