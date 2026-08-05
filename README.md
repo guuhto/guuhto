@@ -90,11 +90,10 @@ On branch main
 Your branch is ahead of 'origin/main' by 44 commits.
 
 Changes not staged for commit:
-  modified:   guuhto/               # fix: use compare API instead of payload.commi…
-  modified:   nixos-config/         # kitty: override color13 to pink 218
-  modified:   my-icon-collection/   # Add icon
+  modified:   nixos-config/   # vendor icon and cursor themes, update applets…
+  modified:   guuhto/         # fix: use compare API instead of payload.commi…
 
-# last 30 days · refreshed 2026-08-04 08:30 UTC
+# last 30 days · refreshed 2026-08-05 08:29 UTC
 ```
 <!--END_SECTION:status-->
 
