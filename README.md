@@ -93,7 +93,7 @@ Changes not staged for commit:
   modified:   nixos-config/   # reorganize config/ and document install steps…
   modified:   guuhto/         # fix: use compare API instead of payload.commi…
 
-# last 30 days · refreshed 2026-08-06 08:28 UTC
+# last 30 days · refreshed 2026-08-07 07:08 UTC
 ```
 <!--END_SECTION:status-->
 
