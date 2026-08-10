@@ -87,13 +87,13 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 47 commits.
+Your branch is ahead of 'origin/main' by 53 commits.
 
 Changes not staged for commit:
-  modified:   nixos-config/   # reorganize config/ and document install steps…
+  modified:   nixos-config/   # readme: fix zed tree indentation
   modified:   guuhto/         # fix: use compare API instead of payload.commi…
 
-# last 30 days · refreshed 2026-08-09 06:48 UTC
+# last 30 days · refreshed 2026-08-10 07:23 UTC
 ```
 <!--END_SECTION:status-->
 
