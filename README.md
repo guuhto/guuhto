@@ -112,7 +112,7 @@ Changes not staged for commit:
       <img src="https://github-stats-extended.vercel.app/api?username=guuhto&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=86400" height="200" />
     </td>
     <td align="center" valign="top">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=guuhto&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" height="165" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=guuhto&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400&hide=qml,css,glsl" height="165" />
     </td>
   </tr>
 </table>
