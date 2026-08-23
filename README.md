@@ -119,6 +119,23 @@ Changes not staged for commit:
 
 ---
 
+### 🦆 Contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/guuhto/guuhto/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/guuhto/guuhto/output/snake.svg">
+  <img alt="snake eating my contributions"
+       src="https://raw.githubusercontent.com/guuhto/guuhto/output/snake.svg">
+</picture>
+
+</div>
+
+---
+
 <p align="center">
   🧑‍🚀 <i>I live on Linux: between open terminals, broken configs, and epic rebuilds.</i>
 </p>
