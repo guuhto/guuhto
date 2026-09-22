@@ -87,13 +87,13 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 31 commits.
+Your branch is ahead of 'origin/main' by 25 commits.
 
 Changes not staged for commit:
   modified:   nixos-config/   # niri: numlock, launcher and workspace binds, …
   modified:   guuhto/         # Modify top languages image in README
 
-# last 30 days · refreshed 2026-09-21 11:50 UTC
+# last 30 days · refreshed 2026-09-22 10:52 UTC
 ```
 <!--END_SECTION:status-->
 
