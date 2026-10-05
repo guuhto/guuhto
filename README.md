@@ -87,12 +87,12 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 13 commits.
+Your branch is ahead of 'origin/main' by 14 commits.
 
 Changes not staged for commit:
-  modified:   nixos-config/   # niri: numlock, launcher and workspace binds, …
+  modified:   nixos-config/   # remove niri and noctalia, back to plasma only
 
-# last 30 days · refreshed 2026-10-04 11:42 UTC
+# last 30 days · refreshed 2026-10-05 13:27 UTC
 ```
 <!--END_SECTION:status-->
 
