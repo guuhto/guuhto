@@ -92,7 +92,7 @@ Your branch is ahead of 'origin/main' by 14 commits.
 Changes not staged for commit:
   modified:   nixos-config/   # remove niri and noctalia, back to plasma only
 
-# last 30 days · refreshed 2026-10-10 11:48 UTC
+# last 30 days · refreshed 2026-10-11 12:00 UTC
 ```
 <!--END_SECTION:status-->
 
