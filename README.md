@@ -87,12 +87,12 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 8 commits.
+Your branch is ahead of 'origin/main' by 4 commits.
 
 Changes not staged for commit:
   modified:   nixos-config/   # lid: ignore when docked so KWin can disable t…
 
-# last 30 days · refreshed 2026-10-13 13:26 UTC
+# last 30 days · refreshed 2026-10-14 11:04 UTC
 ```
 <!--END_SECTION:status-->
 
