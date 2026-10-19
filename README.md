@@ -87,12 +87,12 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 12 commits.
 
 Changes not staged for commit:
-  modified:   nixos-config/   # lid: ignore when docked so KWin can disable t…
+  modified:   nixos-config/   # zsh: dsh wrapper + ollama config
 
-# last 30 days · refreshed 2026-10-18 10:17 UTC
+# last 30 days · refreshed 2026-10-19 11:57 UTC
 ```
 <!--END_SECTION:status-->
 
