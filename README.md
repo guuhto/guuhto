@@ -87,12 +87,13 @@
 ```console
 $ git status
 On branch main
-Your branch is ahead of 'origin/main' by 16 commits.
+Your branch is ahead of 'origin/main' by 28 commits.
 
 Changes not staged for commit:
-  modified:   nixos-config/   # agentcraft: Foreman as systemd user service
+  modified:   nixos-config/         # ollama: cap memory and auto-restart
+  modified:   webhook-dispatcher/   # Revise README with project details and instru…
 
-# last 30 days · refreshed 2026-10-20 10:51 UTC
+# last 30 days · refreshed 2026-10-21 11:03 UTC
 ```
 <!--END_SECTION:status-->
 
