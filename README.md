@@ -26,8 +26,8 @@
   </tr>
   <tr>
     <td align="center"><img src="https://cdn.simpleicons.org/c/BB9AF7" width="26" height="26" title="C" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/python/BB9AF7" width="26" height="26" title="Python" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/rust/BB9AF7" width="26" height="26" title="Rust" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/go/BB9AF7" width="26" height="26" title="Go" /></td>
-    <td align="center"><img src="https://cdn.simpleicons.org/git/BB9AF7" width="26" height="26" title="Git" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/docker/BB9AF7" width="26" height="26" title="Docker" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/githubactions/BB9AF7" width="26" height="26" title="GitHub Actions" /></td>
-    <td align="center"><img src="https://cdn.simpleicons.org/forgejo/BB9AF7" width="26" height="26" title="Forgejo" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nextcloud/BB9AF7" width="26" height="26" title="Nextcloud" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/pihole/BB9AF7" width="26" height="26" title="Pi-hole" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/portainer/BB9AF7" width="26" height="26" title="Portainer" /></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/docker/BB9AF7" width="26" height="26" title="Docker" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/portainer/BB9AF7" width="26" height="26" title="Portainer" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/githubactions/BB9AF7" width="26" height="26" title="GitHub Actions" /></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/forgejo/BB9AF7" width="26" height="26" title="Forgejo" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/nextcloud/BB9AF7" width="26" height="26" title="Nextcloud" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/pihole/BB9AF7" width="26" height="26" title="Pi-hole" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/tailscale/BB9AF7" width="26" height="26" title="Tailscale" /></td>
   </tr>
   <tr>
     <th align="center"><sub>🤖 AI</sub></th>
@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td align="center"><img src="https://cdn.simpleicons.org/ollama/BB9AF7" width="26" height="26" title="Ollama" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/claude/BB9AF7" width="26" height="26" title="Claude" />&nbsp;&nbsp;<sup>+ Orca</sup></td>
-    <td align="center"><img src="https://cdn.simpleicons.org/zsh/BB9AF7" width="26" height="26" title="Zsh" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/gnubash/BB9AF7" width="26" height="26" title="Bash" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/vim/BB9AF7" width="26" height="26" title="Vim" /></td>
+    <td align="center"><img src="https://cdn.simpleicons.org/zsh/BB9AF7" width="26" height="26" title="Zsh" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/gnubash/BB9AF7" width="26" height="26" title="Bash" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/vim/BB9AF7" width="26" height="26" title="Vim" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/kde/BB9AF7" width="26" height="26" title="Kate" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/zedindustries/BB9AF7" width="26" height="26" title="Zed" /></td>
     <td align="center"><img src="https://cdn.simpleicons.org/nixos/BB9AF7" width="26" height="26" title="NixOS" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/debian/BB9AF7" width="26" height="26" title="Debian" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/linux/BB9AF7" width="26" height="26" title="Linux" /></td>
   </tr>
 </table>
